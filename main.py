@@ -39,6 +39,5 @@ async def getStdev():
         return {"result": stddev }      
 
 @app.get("/numbers/show")
-
 async def show():
     return {"result": numbers }
