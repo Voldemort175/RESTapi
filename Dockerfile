@@ -4,6 +4,7 @@ RUN apt -y install git python3 python3-pip
 
 RUN pip3 install fastapi
 RUN pip3 install "uvicorn[standard]" 
+RUN pip3 install statistics
 WORKDIR /root
 
 RUN git clone https://github.com/Voldemort175/RESTapi.git
